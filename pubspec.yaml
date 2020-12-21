@@ -29,6 +29,16 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
   easy_localization: ^2.3.3
+  jalali_calendar: ^1.0.3+1
+  persian_date: ^0.1.5
+  jiffy: ^2.2.0
+  speech_to_text: ^2.7.0
+  camera: ^0.5.8+11
+  image_picker: ^0.6.7+12
+  path_provider: ^1.6.22
+  http: ^0.12.2
+  dio: ^3.0.10
+
 
 
 dev_dependencies:

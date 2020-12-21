@@ -35,8 +35,7 @@ class TextFieldWidget extends StatelessWidget {
             padding: EdgeInsets.only(right: 10.0),
             child: Center(
               child: TextField(
-
-                focusNode: FocusNode(canRequestFocus: true),
+                // focusNode: FocusNode(canRequestFocus: true),
 
                 textAlign: TextAlign.center,
                 controller: controller1,
@@ -44,7 +43,6 @@ class TextFieldWidget extends StatelessWidget {
                 cursorRadius: Radius.circular(5),
                 onChanged: (value) {
                   // FocusScope.of(context).requestFocus(new FocusNode());
-
                 },
                 decoration: InputDecoration(
                   border: InputBorder.none,
